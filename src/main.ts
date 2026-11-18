@@ -17,7 +17,7 @@ function serviceCourt(s: S, done: boolean): Frame {
 type S={scores:number[];team:number;server:number;history:number[][]};const teams=["Home","Away"];
 function won(a:number,b:number){return a===30||a>=21&&a-b>=2;}
 desk<S>({name:"Shuttle Score",accent:"#6DA9E9",motion:{enabled:false},initial:()=>({scores:[0,0],team:0,server:0,history:[]}),
- render:s=>{const [a,b]=s.scores,done=won(a,b)||won(b,a);return {marks:serviceCourt(s,done),title:done?"Game over":"Shuttle score",value:a+" - "+b,
+ render:s=>{const [a,b]=s.scores,done=won(a,b)||won(b,a);return {marks:serviceCourt(s,done),title:done?"Game over":"For "+teams[s.team],value:a+" - "+b,
  lines:[done?teams[a>b?0:1]+" wins":"Next point: "+teams[s.team],"Serve: "+teams[s.server],
  "Court: "+(s.scores[s.server]%2?"left":"right"),"Wheel: side / click: rally","Start: undo last point","Hold Start: new game"]};},
  action:(s,k)=>{if(k==="up"||k==="down")s.team=1-s.team;if(k==="hold-start"){s.scores=[0,0];s.server=0;s.history=[];}
