@@ -1,0 +1,50 @@
+{
+  "app": "busybar-shuttle-score",
+  "sha256": "5fb18daf46dfef4288506ed469b7032382f145a4c46c67be2445a59a6224578a",
+  "firmware": "1.3.1",
+  "cell": 16,
+  "lit": 14,
+  "front": [
+    72,
+    16
+  ],
+  "rear": [
+    160,
+    80
+  ],
+  "captures": [
+    {
+      "mode": "classic",
+      "guides": [
+        "score-away-rallies",
+        "correct-and-tie"
+      ],
+      "tour": "screen-transitions",
+      "input": [
+        [
+          "up",
+          "ok",
+          "ok"
+        ],
+        [
+          "start",
+          "down",
+          "ok"
+        ],
+        [
+          "down",
+          "up",
+          "ok"
+        ]
+      ],
+      "distinct_frames": [
+        18,
+        18,
+        53
+      ],
+      "rear_frames": 10,
+      "rear_tour": "screen-transitions-rear",
+      "exit": "finished"
+    }
+  ]
+}

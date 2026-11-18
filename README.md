@@ -6,6 +6,20 @@ Use the same button to log the rally and update the next serve. The front score 
 
 Turn the wheel to choose **FOR HOME** or **FOR AWAY** before awarding a rally. A small court beside the score marks where the next serve comes from. Home occupies the left half and Away the right. The light moves when the serving side or service court changes.
 
+## Screen transitions
+
+Award a rally, then undo it. The score updates under the selected side.
+
+![Shuttle Score front display. Award a rally, then undo it. The score updates under the selected side.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Shuttle Score rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Award a rally
 
 1. Turn the wheel until the rear names the side that won the rally. The side selected for the next point can differ from the present server.
@@ -36,6 +50,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
