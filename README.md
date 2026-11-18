@@ -4,6 +4,8 @@ Keep badminton rally score, the serving side and deuce rules without tapping a p
 
 Use the same button to log the rally and update the next serve. The front score faces the players while the rear tells the scorer which side serves and from which court.
 
+A small court beside the score marks where the next serve comes from. Home occupies the left half and Away the right. The light moves when the serving side or service court changes.
+
 ## Award a rally
 
 1. Turn the wheel until the rear names the side that won the rally. The side selected for the next point can differ from the present server.
