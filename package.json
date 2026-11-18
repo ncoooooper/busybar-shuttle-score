@@ -1,7 +1,7 @@
 {
   "name": "busybar-shuttle-score",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Keep badminton rally score, the serving side and deuce rules without tapping a phone.",
   "author": "ncoooooper",
   "type": "module",
