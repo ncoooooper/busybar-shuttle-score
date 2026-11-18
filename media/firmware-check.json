@@ -13,5 +13,27 @@
   "frames": 54,
   "distinct_frames": 24,
   "exit": "App io.ncoooooper.shuttlescore exited: finished; heap peak 80.5 of 128 KiB",
-  "sha256": "2dedb15bd38fc981f276c3a5a0cca1dd28c40be0cd52ebc0c0090d2e3ef34477"
+  "sha256": "aad7bb7c8d7fc368272d93723e30af39be9b703e817e545fbe95c9f5c6a8242d",
+  "display_test": {
+    "firmware": "1.3.1",
+    "input": "On-device controls",
+    "keys": [
+      [
+        "up",
+        "ok",
+        "ok"
+      ],
+      [
+        "start",
+        "down",
+        "ok"
+      ]
+    ],
+    "frames": 160,
+    "distinct_by_flow": [
+      18,
+      16
+    ],
+    "exit": "App io.btype.shuttlescore exited: finished; heap peak 85.8 of 128 KiB"
+  }
 }
